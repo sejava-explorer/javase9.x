@@ -12,7 +12,11 @@ import com.explorechoice.javabasics.*;
 class TestDefaultAccessModifier {
 	
 	public static void main(String args[]) {
+		
 		DefaultAccessModifier obj = new DefaultAccessModifier();
+		System.out.println(obj.x);
+		
+//		DefaultAccessModifier obj = new DefaultAccessModifier();
 //		//obj.x = 23;  // setting 
 //		obj.setX(23);
 //		System.out.println(obj.getX());// 23
@@ -24,6 +28,8 @@ class TestDefaultAccessModifier {
 		ConstructorExample ce = new ConstructorExample(23, 60, 70);
 		ce.add(); //  83.0
 		ce.sub(); // -37.0
+		
+		
 	}
 	
 

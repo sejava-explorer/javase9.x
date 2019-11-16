@@ -8,7 +8,7 @@ package com.explorechoice.javabasics;
 
 public class DefaultAccessModifier {
 	
-	int x;
+	public int x;
 	private double y;
 	
 	public void add() {
